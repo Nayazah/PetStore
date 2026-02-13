@@ -1,0 +1,58 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "127",
+    "category": {
+        "id": " 127",
+        "name": "name"
+    },
+    "name": " cat",
+    "photoUrls": [
+        "photo_4_url"
+    ],
+    "tags": [
+        {
+            "id": 644754,
+            "name": "Lazy_star"
+        }
+    ],
+    "status": "Available"
+}
+HTTP/1.1 200 OK
+Date: Sun, 08 Feb 2026 15:04:24 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 127,
+    "category": {
+        "id": 127,
+        "name": "name"
+    },
+    "name": " cat",
+    "photoUrls": [
+        "photo_4_url"
+    ],
+    "tags": [
+        {
+            "id": 644754,
+            "name": "Lazy_star"
+        }
+    ],
+    "status": "Available"
+}
